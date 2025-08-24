@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const FooterLogo = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center sm:text-left">
+    <div className="flex flex-col items-center sm:items-start">
       <Link
         href="/"
         className="text-4xl lg:text-5xl font-bold text-amber-400 hover:opacity-80 transition-opacity duration-300 ease-in-out"

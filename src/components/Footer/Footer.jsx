@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-zinc-950 border-t border-zinc-800 py-30 px-4 sm:px-8">
       <div className="container-sm">
-        <div className="flex flex-col sm:flex-row justify-between items-center space-y-16">
+        <div className="flex flex-col sm:flex-row justify-between items-center space-y-16 sm:space-y-0">
           <FooterLogo />
           <FooterLinks />
           <FooterSocials />
